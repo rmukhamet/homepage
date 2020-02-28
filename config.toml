@@ -55,18 +55,13 @@ defaultContentLanguage = "ru"           # Default language to use
   weight = 40
   identifier = "categories"
   url = "/categories/"
-[[menu.main]]
-  name = "external-link"
-  weight = 50
-  url = "https://gohugo.io"
+
 
 
 [params]
   since = "2020"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
-
-  googleAnalytics = ""
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Rafael"        # default: the title value    # 默认值: 上面设置的title值
@@ -79,7 +74,7 @@ defaultContentLanguage = "ru"           # Default language to use
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
   toc = true                                                                            # 是否开启目录
-  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
+  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
   # Link custom CSS and JS assets
@@ -89,21 +84,21 @@ defaultContentLanguage = "ru"           # Default language to use
 
   [params.social]                                       
     a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
+    #b-stack-overflow = "http://localhost:1313"
+    #c-twitter = "http://localhost:1313"
     d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
+    e-linkedin = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
+    #f-google = "http://localhost:1313"
+    g-github = "https://github.com/rmukhamet"
+    #h-weibo = "http://localhost:1313"
+    #i-zhihu = "http://localhost:1313"
+    #j-douban = "http://localhost:1313"
+    #k-pocket = "http://localhost:1313"
+    #l-tumblr = "http://localhost:1313"
     m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
+    #n-gitlab = "http://localhost:1313"
     o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
-    r-codeforces = "http://localhost:1313"
-    s-mastodon = "http://localhost:1313"
+    #p-coding = "http://localhost:1313"
+    #q-bilibili = "http://localhost:1313"
+    #r-codeforces = "http://localhost:1313"
+    #s-mastodon = "http://localhost:1313"
