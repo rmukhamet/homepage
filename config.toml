@@ -35,16 +35,7 @@ defaultContentLanguage = "ru"           # Default language to use
   weight = 10
   identifier = "home"
   url = "/"
-[[menu.main]]
-  name = "Archives"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "Quotas"
-  weight = 20
-  identifier = "quotas"
-  url = "/post/"
+
 [[menu.main]]
   name = "Tags"
   weight = 30
@@ -95,7 +86,7 @@ defaultContentLanguage = "ru"           # Default language to use
     #j-douban = "http://localhost:1313"
     #k-pocket = "http://localhost:1313"
     #l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
+    m-instagram = "https://www.instagram.com/rafaelfyaritovich/"
     #n-gitlab = "http://localhost:1313"
     o-goodreads = "http://localhost:1313"
     #p-coding = "http://localhost:1313"
