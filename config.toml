@@ -35,7 +35,10 @@ defaultContentLanguage = "ru"           # Default language to use
   weight = 10
   identifier = "home"
   url = "/"
-
+[[menu.main]]
+    url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
+    name = "CV"
+    weight = 90
 [[menu.main]]
   name = "Tags"
   weight = 30
