@@ -10,7 +10,7 @@ comment: false
 mathjax: false
 ---
 
-
+http://vimcasts.org/
 [Источник](https://scabere.livejournal.com/62886.html)
 ## Поиск
 /word	Искать слово “word” сверху вниз
