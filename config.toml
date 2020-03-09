@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://rmukhamet.ru"
-title = "Rafael Mukhammetdzhanov's homepage"
+title = "Rafael Mukhametdzhanov's homepage"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -77,9 +77,9 @@ defaultContentLanguage = "ru"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                       
-    a-email = "mailto:your@email.com"
+    a-email = "mailto:rmukhametdzhanov@gmail.com"
     #b-stack-overflow = "http://localhost:1313"
-    #c-twitter = "http://localhost:1313"
+    c-twitter = "https://twitter.com/RMukhamet"
     d-facebook = "https://www.facebook.com/rmukhametdzhanov"
     e-linkedin = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
     #f-google = "http://localhost:1313"
