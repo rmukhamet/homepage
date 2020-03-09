@@ -12,7 +12,7 @@ hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否�
 paginate = 3              # Number of articles displayed on the homepage  # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "UA-35259440-2"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 # language support # en / zh-cn / other... translations present in i18n/
@@ -59,7 +59,7 @@ defaultContentLanguage = "ru"           # Default language to use
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "Rafael"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Homepage", "theme","jane"]
+  keywords = ["Homepage", "CV","Resume","golang","developer"]
   description = "My homepage"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
