@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafael Mukhammetdzhanov's homepage</title><link>https://rmukhamet.github.io/homepage/</link><description>Recent content on Rafael Mukhammetdzhanov's homepage</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate><atom:link href="https://rmukhamet.github.io/homepage/index.xml" rel="self" type="application/rss+xml"/><item><title>Quotas</title><link>https://rmukhamet.github.io/homepage/quotes/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.github.io/homepage/quotes/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafael Mukhammetdzhanov's homepage</title><link>https://rmukhamet.ru/</link><description>Recent content on Rafael Mukhammetdzhanov's homepage</description><generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate><atom:link href="https://rmukhamet.ru/index.xml" rel="self" type="application/rss+xml"/><item><title>Quotas</title><link>https://rmukhamet.ru/quotes/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/quotes/</guid><description>&lt;blockquote>
 &lt;p>Принятие ограничений ведет к освобождению.&lt;br>
 &amp;ndash; Цицерон?&lt;/p>
 &lt;/blockquote>
@@ -114,7 +114,7 @@
 &lt;blockquote>
 &lt;p>Мы развиваемся и перерастаем себя именно тогда, когда действуем свободно ради самой деятельности, а не руководствуясь внешними побуждениями.
 &amp;ndash; Михай Чиксентмихайи Поток&lt;/p>
-&lt;/blockquote></description></item><item><title>Vim help</title><link>https://rmukhamet.github.io/homepage/vim/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.github.io/homepage/vim/</guid><description>&lt;p>&lt;a href="http://vimcasts.org/">http://vimcasts.org/&lt;/a>
+&lt;/blockquote></description></item><item><title>Vim help</title><link>https://rmukhamet.ru/vim/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/vim/</guid><description>&lt;p>&lt;a href="http://vimcasts.org/">http://vimcasts.org/&lt;/a>
 &lt;a href="https://scabere.livejournal.com/62886.html">Источник&lt;/a>&lt;/p>
 &lt;h2 id="поиск">Поиск&lt;/h2>
 &lt;p>/word Искать слово “word” сверху вниз
@@ -682,7 +682,7 @@ q: История команд
 &lt;p>vt, - выделить всё до ближайшей запятой&lt;/p>
 &lt;p>Ctrl+G - номер текущей строки, общее число строк в файле и его имя&lt;/p>
 &lt;p>N,M ya - копировать в буфер обмена строки с N до M включительно (потом их можно вставить в нужном месте той же &amp;ldquo;p&amp;rdquo;)&lt;/p>
-&lt;p>Ndd - удалить N строк (любые удалённые строки попадают в буфер обмена)&lt;/p></description></item><item><title>Vital maxims</title><link>https://rmukhamet.github.io/homepage/maxims/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.github.io/homepage/maxims/</guid><description>&lt;ol>
+&lt;p>Ndd - удалить N строк (любые удалённые строки попадают в буфер обмена)&lt;/p></description></item><item><title>Vital maxims</title><link>https://rmukhamet.ru/maxims/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/maxims/</guid><description>&lt;ol>
 &lt;li>Чего вы хотите?&lt;/li>
 &lt;li>Какова объективная реальность?&lt;/li>
 &lt;li>Что вам делать, чтобы добиться п. 1 с позиции п. 2 ?
@@ -706,7 +706,7 @@ q: История команд
 Surrender the outcome осознать свои ошибки
 Do uncomfortable work
 &amp;ndash; TED&lt;/p>
-&lt;/blockquote></description></item><item><title>Аффирмации мантры</title><link>https://rmukhamet.github.io/homepage/affirmations/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.github.io/homepage/affirmations/</guid><description>&lt;p>я капитан своего корабля&lt;/p>
+&lt;/blockquote></description></item><item><title>Аффирмации мантры</title><link>https://rmukhamet.ru/affirmations/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/affirmations/</guid><description>&lt;p>я капитан своего корабля&lt;/p>
 &lt;p>Постулаты для размышления и закрепления&lt;/p>
 &lt;ol>
 &lt;li>Сознание, создавшее Вселенную, заложено и в нас.&lt;/li>

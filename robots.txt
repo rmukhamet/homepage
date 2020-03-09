@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://rmukhamet.github.io/homepage/sitemap.xml
+Sitemap: https://rmukhamet.ru/sitemap.xml
