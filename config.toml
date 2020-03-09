@@ -92,6 +92,7 @@ defaultContentLanguage = "ru"           # Default language to use
     m-instagram = "https://www.instagram.com/rafaelfyaritovich/"
     #n-gitlab = "http://localhost:1313"
     o-goodreads = "http://localhost:1313"
+    fa-strava = "https://www.strava.com/athletes/rmukhamet"
     #p-coding = "http://localhost:1313"
     #q-bilibili = "http://localhost:1313"
     #r-codeforces = "http://localhost:1313"
