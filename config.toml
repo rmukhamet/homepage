@@ -32,7 +32,7 @@ defaultContentLanguage = "ru"           # Default language to use
 
 [[menu.main]]             # config your menu              # 配置目录
   name = "This is Home"
-  weight = 10
+  weight = 1
   identifier = "home"
   url = "/"
 [[menu.main]]
