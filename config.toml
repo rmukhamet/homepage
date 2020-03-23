@@ -56,13 +56,12 @@ defaultContentLanguage = "ru"           # Default language to use
   since = "2020"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
-author = "Rafael Mukhametdzhanov"
-    description = "no content"
+  author = "Rafael Mukhametdzhanov"
+  description = "no content"
     
   # site info (optional)                                  
   logoTitle = "Rafael"        # default: the title value    
   keywords = ["Homepage", "CV","Resume","golang","developer"]
-  description = "My homepage"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
