@@ -6,10 +6,10 @@ baseURL = "https://rmukhamet.ru"
 title = "Rafael Mukhametdzhanov's homepage"
 enableRobotsTXT = true
 enableEmoji = true
-theme = "jane"
+theme = "minimal"
 
-hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 3              # Number of articles displayed on the homepage  # 首页每页显示的文章数
+hasCJKLanguage = false     # has chinese/japanese/korean ? 
+paginate = 3              # Number of articles displayed on the homepage  
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = "UA-35259440-2"      # UA-XXXXXXXX-X
@@ -22,15 +22,15 @@ defaultContentLanguage = "ru"           # Default language to use
 [languages.ru]
   languageCode = "ru"
 
-[author]                  # essential                     # 必需
+[author]                  # essential                    
   name = "RafaelM"
 
-[sitemap]                 # essential                     # 必需
+[sitemap]                 # essential                    
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
-[[menu.main]]             # config your menu              # 配置目录
+[[menu.main]]             # config your menu              
   name = "This is Home"
   weight = 1
   identifier = "home"
@@ -38,15 +38,15 @@ defaultContentLanguage = "ru"           # Default language to use
 [[menu.main]]
     url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
     name = "CV"
-    weight = 90
+    weight = 80
 [[menu.main]]
   name = "Tags"
-  weight = 30
+  weight = 90
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
   name = "Categories"
-  weight = 40
+  weight = 100
   identifier = "categories"
   url = "/categories/"
 
@@ -56,16 +56,17 @@ defaultContentLanguage = "ru"           # Default language to use
   since = "2020"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
-
-  # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Rafael"        # default: the title value    # 默认值: 上面设置的title值
+author = "Rafael Mukhametdzhanov"
+    description = "no content"
+    
+  # site info (optional)                                  
+  logoTitle = "Rafael"        # default: the title value    
   keywords = ["Homepage", "CV","Resume","golang","developer"]
   description = "My homepage"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
 
-  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
   toc = true                                                                            # 是否开启目录
   photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            
