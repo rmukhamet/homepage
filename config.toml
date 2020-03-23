@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://rmukhamet.ru"
-title = "Rafael Mukhametdzhanov's homepage"
+title = "Rafael Mukhametdzhanov"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "minimal"
@@ -30,27 +30,45 @@ defaultContentLanguage = "ru"           # Default language to use
   priority = 0.5
   filename = "sitemap.xml"
 
-[[menu.main]]             # config your menu              
-  name = "This is Home"
+[[languages.ru.menu.main]]                   
+  name = "Главная"
   weight = 1
   identifier = "home"
   url = "/"
-[[menu.main]]
+[[languages.ru.menu.main]]                   
     url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
     name = "CV"
     weight = 80
-[[menu.main]]
-  name = "Tags"
+[[languages.ru.menu.main]]                   
+  name = "Теги"
   weight = 90
   identifier = "tags"
   url = "/tags/"
-[[menu.main]]
-  name = "Categories"
+[[languages.ru.menu.main]]                   
+  name = "Категории"
   weight = 100
   identifier = "categories"
   url = "/categories/"
 
-
+[[languages.en.menu.main]]
+ name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
+[[languages.en.menu.main]]                   
+    url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
+    name = "CV"
+    weight = 80
+[[languages.en.menu.main]]                   
+  name = "Tags"
+  weight = 90
+  identifier = "tags"
+  url = "/tags/"
+[[languages.en.menu.main]]                   
+  name = "Categories"
+  weight = 100
+  identifier = "categories"
+  url = "/categories/"
 
 [params]
   since = "2020"            # Site creation time          # 站点建立时间
