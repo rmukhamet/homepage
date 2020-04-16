@@ -11,7 +11,7 @@ comment: false
 mathjax: false
 
 menu: "main"
-weight: 50
+weight: 1
 ---
 
 к сожалению еще пока не разродился текстом по теме. 

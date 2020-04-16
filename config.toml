@@ -12,32 +12,57 @@ paginate = 3              # Number of articles displayed on the homepage
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = "UA-35259440-2"      # UA-XXXXXXXX-X
-
-
-# language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "ru"           # Default language to use
-[languages.en]
-  languageCode = "en"
-[languages.ru]
-  languageCode = "ru"
 
-[author]                  # essential                    
-  name = "RafaelM"
+
+[params]
+  since = "2020"            # Site creation time          # 站点建立时间
+  homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
+  rssFullContent = true     # if false, Rss feed instead of the summary
+  author = "Rafael Mukhametdzhanov"
+  description = "no content"
+  copyright = " "  
+  githubUsername = "rmukhamet"
+  accent = "green"
+  showBorder = true
+  backgroundColor = "white"
+  font = "Raleway" # should match the name on Google Fonts!
+  highlight = true 
+  highlightStyle = "default"
+  highlightLanguages = ["go", "typescript", "kotlin"]
+  Subtitle = "Hugo is Absurdly Fast!"
+
+    
+  # site info (optional)                                  
+  #logoTitle = "Rafael"        # default: the title value    
+  #keywords = ["Homepage", "CV", "Resume", "golang", "developer"]
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
+
 
 [sitemap]                 # essential                    
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
+[languages.en]
+  languageCode = "en"
+
+[languages.ru]
+  languageCode = "ru"
+
 [[languages.ru.menu.main]]                   
   name = "Главная"
   weight = 1
   identifier = "home"
   url = "/"
+
 [[languages.ru.menu.main]]                   
     url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
     name = "CV"
-    weight = 80
+    weight = 200
+
 [[languages.ru.menu.main]]                   
   name = "Теги"
   weight = 90
@@ -59,7 +84,7 @@ defaultContentLanguage = "ru"           # Default language to use
 [[languages.en.menu.main]]                   
     url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
     name = "CV"
-    weight = 80
+    weight = 200
 
 [[languages.en.menu.main]]                   
   name = "Tags"
@@ -73,80 +98,47 @@ defaultContentLanguage = "ru"           # Default language to use
   identifier = "categories"
   url = "/categories/"
 
-[params]
-  since = "2020"            # Site creation time          # 站点建立时间
-  homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
-  rssFullContent = true     # if false, Rss feed instead of the summary
-  author = "Rafael Mukhametdzhanov"
-  description = "no content"
-  copyright = " "  
-  githubUsername = "rmukhamet"
-  accent = "green"
-  showBorder = true
-  backgroundColor = "white"
-  font = "Raleway" # should match the name on Google Fonts!
-  highlight = true 
-  highlightStyle = "default"
-  highlightLanguages = ["go", "typescript", "kotlin"]
-
-    
-  # site info (optional)                                  
-  logoTitle = "Rafael"        # default: the title value    
-  keywords = ["Homepage", "CV", "Resume", "golang", "developer"]
-
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
-
-  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = true                                                                            # 是否开启目录
-  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
-
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
 
-[[menu.icon]]
-    url =  "https://twitter.com/RMukhamet"
-    name = "twitter"
-    weight = 1
+[[languages.ru.menu.icon]]
+  url =  "https://twitter.com/RMukhamet"
+  name = "twitter"
+  weight = 1
 
-[[menu.icon]]
-    url = "https://github.com/rmukhamet"
-    name = "github"
-    weight = 2
+[[languages.ru.menu.icon]]
+  url = "https://github.com/rmukhamet"
+  name = "github"
+  weight = 2
 
-[[menu.icon]]
-    url = "https://www.instagram.com/rafaelfyaritovich/"
-    name = "instagram"
-    weight = 3
+[[languages.ru.menu.icon]]
+  url = "https://www.instagram.com/rafaelfyaritovich/"
+  name = "instagram"
+  weight = 3
 
-[[menu.icon]]
-    url = "https://www.facebook.com/rmukhametdzhanov"
-    name = "facebook"
-    weight = 4
+[[languages.ru.menu.icon]]
+  url = "https://www.facebook.com/rmukhametdzhanov"
+  name = "facebook"
+  weight = 4
 
-[[menu.icon]]
-    url = "https://www.strava.com/athletes/rmukhamet"
-    name = "strava"
-    weight = 5
+[[languages.ru.menu.icon]]
+  url = "https://www.strava.com/athletes/rmukhamet"
+  name = "strava"
+  weight = 5
 
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
-    name = "linkedin"
-    weight = 6
+[[languages.ru.menu.icon]]
+  url = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
+  name = "linkedin"
+  weight = 6
 
-[[menu.icon]]
-    url = "https://t.me/rmukhamet"
-    name = "telegram"
-    weight = 7
+[[languages.ru.menu.icon]]
+  url = "https://t.me/rmukhamet"
+  name = "telegram"
+  weight = 7
 
-[[menu.icon]]
-    url = "mailto:rmukhametdzhanov@gmail.com"
-    name = "envelope-o"
-    weight = 8
+[[languages.ru.menu.icon]]
+  url = "mailto:rmukhametdzhanov@gmail.com"
+  name = "envelope-o"
+  weight = 8
 
 #[[menu.icon]]
 #   # url = "mailto:rmukhametdzhanov@gmail.com"
