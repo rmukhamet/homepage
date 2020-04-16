@@ -94,28 +94,6 @@ defaultContentLanguage = "ru"           # Default language to use
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
- # [params.social]                                       
-   # a-email = "mailto:rmukhametdzhanov@gmail.com"
-    #b-stack-overflow = "http://localhost:1313"
-    #+ c-twitter = "https://twitter.com/RMukhamet"
-    #+d-facebook = "https://www.facebook.com/rmukhametdzhanov"
-   # + e-linkedin = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
-    #f-google = "http://localhost:1313"
-   #+ g-github = "https://github.com/rmukhamet"
-    #h-weibo = "http://localhost:1313"
-    #i-zhihu = "http://localhost:1313"
-    #j-douban = "http://localhost:1313"
-    #k-pocket = "http://localhost:1313"
-    #l-tumblr = "http://localhost:1313"
-    #+ m-instagram = "https://www.instagram.com/rafaelfyaritovich/"
-    #n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    #fa-strava = "https://www.strava.com/athletes/rmukhamet"
-    #p-coding = "http://localhost:1313"
-    #q-bilibili = "http://localhost:1313"
-    #r-codeforces = "http://localhost:1313"
-    #s-mastodon = "http://localhost:1313"
-
 
 [[menu.icon]]
     url =  "https://twitter.com/RMukhamet"
@@ -153,4 +131,10 @@ defaultContentLanguage = "ru"           # Default language to use
 [[menu.icon]]
     url = "mailto:rmukhametdzhanov@gmail.com"
     name = "envelope-o"
-    weight = 7
+    weight = 8
+
+[[menu.icon]]
+   # url = "mailto:rmukhametdzhanov@gmail.com"
+    name = "goodreads"
+    weight = 9
+   
