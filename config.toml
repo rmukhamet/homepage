@@ -8,12 +8,11 @@ enableRobotsTXT = true
 enableEmoji = true
 theme = "minimal"
 
-hasCJKLanguage = false     # has chinese/japanese/korean ? 
 paginate = 3              # Number of articles displayed on the homepage  
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = "UA-35259440-2"      # UA-XXXXXXXX-X
-copyright = " "           
+
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "ru"           # Default language to use
@@ -44,6 +43,7 @@ defaultContentLanguage = "ru"           # Default language to use
   weight = 90
   identifier = "tags"
   url = "/tags/"
+
 [[languages.ru.menu.main]]                   
   name = "Категории"
   weight = 100
@@ -55,15 +55,18 @@ defaultContentLanguage = "ru"           # Default language to use
   weight = 1
   identifier = "home"
   url = "/"
+
 [[languages.en.menu.main]]                   
     url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
     name = "CV"
     weight = 80
+
 [[languages.en.menu.main]]                   
   name = "Tags"
   weight = 90
   identifier = "tags"
   url = "/tags/"
+
 [[languages.en.menu.main]]                   
   name = "Categories"
   weight = 100
@@ -76,10 +79,20 @@ defaultContentLanguage = "ru"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
   author = "Rafael Mukhametdzhanov"
   description = "no content"
+  copyright = " "  
+  githubUsername = "rmukhamet"
+  accent = "green"
+  showBorder = true
+  backgroundColor = "white"
+  font = "Raleway" # should match the name on Google Fonts!
+  highlight = true 
+  highlightStyle = "default"
+  highlightLanguages = ["go", "typescript", "kotlin"]
+
     
   # site info (optional)                                  
   logoTitle = "Rafael"        # default: the title value    
-  keywords = ["Homepage", "CV","Resume","golang","developer"]
+  keywords = ["Homepage", "CV", "Resume", "golang", "developer"]
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -119,10 +132,12 @@ defaultContentLanguage = "ru"           # Default language to use
     url = "https://www.strava.com/athletes/rmukhamet"
     name = "strava"
     weight = 5
+
 [[menu.icon]]
     url = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
     name = "linkedin"
     weight = 6
+
 [[menu.icon]]
     url = "https://t.me/rmukhamet"
     name = "telegram"
