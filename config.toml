@@ -148,8 +148,8 @@ defaultContentLanguage = "ru"           # Default language to use
     name = "envelope-o"
     weight = 8
 
-[[menu.icon]]
-   # url = "mailto:rmukhametdzhanov@gmail.com"
-    name = "goodreads"
-    weight = 9
+#[[menu.icon]]
+#   # url = "mailto:rmukhametdzhanov@gmail.com"
+#    name = "goodreads"
+#    weight = 9
    
