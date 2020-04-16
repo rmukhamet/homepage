@@ -13,7 +13,7 @@ paginate = 3              # Number of articles displayed on the homepage
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = "UA-35259440-2"      # UA-XXXXXXXX-X
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+copyright = " "           
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "ru"           # Default language to use
@@ -94,20 +94,20 @@ defaultContentLanguage = "ru"           # Default language to use
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
-  [params.social]                                       
-    a-email = "mailto:rmukhametdzhanov@gmail.com"
+ # [params.social]                                       
+   # a-email = "mailto:rmukhametdzhanov@gmail.com"
     #b-stack-overflow = "http://localhost:1313"
-    c-twitter = "https://twitter.com/RMukhamet"
-    d-facebook = "https://www.facebook.com/rmukhametdzhanov"
-    e-linkedin = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
+    #+ c-twitter = "https://twitter.com/RMukhamet"
+    #+d-facebook = "https://www.facebook.com/rmukhametdzhanov"
+   # + e-linkedin = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
     #f-google = "http://localhost:1313"
-    g-github = "https://github.com/rmukhamet"
+   #+ g-github = "https://github.com/rmukhamet"
     #h-weibo = "http://localhost:1313"
     #i-zhihu = "http://localhost:1313"
     #j-douban = "http://localhost:1313"
     #k-pocket = "http://localhost:1313"
     #l-tumblr = "http://localhost:1313"
-    m-instagram = "https://www.instagram.com/rafaelfyaritovich/"
+    #+ m-instagram = "https://www.instagram.com/rafaelfyaritovich/"
     #n-gitlab = "http://localhost:1313"
     o-goodreads = "http://localhost:1313"
     #fa-strava = "https://www.strava.com/athletes/rmukhamet"
@@ -115,3 +115,42 @@ defaultContentLanguage = "ru"           # Default language to use
     #q-bilibili = "http://localhost:1313"
     #r-codeforces = "http://localhost:1313"
     #s-mastodon = "http://localhost:1313"
+
+
+[[menu.icon]]
+    url =  "https://twitter.com/RMukhamet"
+    name = "twitter"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/rmukhamet"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://www.instagram.com/rafaelfyaritovich/"
+    name = "instagram"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.facebook.com/rmukhametdzhanov"
+    name = "facebook"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.strava.com/athletes/rmukhamet"
+    name = "strava"
+    weight = 5
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/rafaelmoukhametdjanov/"
+    name = "linkedin"
+    weight = 6
+[[menu.icon]]
+    url = "https://t.me/rmukhamet"
+    name = "telegram"
+    weight = 7
+
+[[menu.icon]]
+    url = "mailto:rmukhametdzhanov@gmail.com"
+    name = "envelope-o"
+    weight = 7
