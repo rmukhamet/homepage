@@ -59,7 +59,7 @@ defaultContentLanguage = "ru"           # Default language to use
   url = "/"
 
 [[languages.ru.menu.main]]                   
-    url = "https://github.com/rmukhamet/cv/releases/latest/download/cv_tex.pdf"
+    url = "https://github.com/rmukhamet/cv/releases/latest/download/CV_Rafael_Mukhametdzhanov.pdf"
     name = "CV"
     weight = 200
 
