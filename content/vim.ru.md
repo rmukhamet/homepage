@@ -11,6 +11,7 @@ weight: 50
 comment: false
 mathjax: false
 ---
+[useful video](https://youtu.be/E-ZbrtoSuzw)
 
 http://vimcasts.org/
 [Источник](https://scabere.livejournal.com/62886.html)
