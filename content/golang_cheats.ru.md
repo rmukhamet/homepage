@@ -47,4 +47,10 @@ BenchmarkToJSON 184 48 -73.91%
 
 ## debuger
 
+dlv debug main.go # eq go run 
+dlv cli> break file:num # define break point
+dlv cli> continue #run till break point
+dlv cli> locals #show vars
+dlv cli> step # go next line
+
 TODO delve
