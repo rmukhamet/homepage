@@ -47,10 +47,38 @@ BenchmarkToJSON 184 48 -73.91%
 
 ## debuger
 
-dlv debug main.go # eq go run 
-dlv cli> break file:num # define break point
-dlv cli> continue #run till break point
-dlv cli> locals #show vars
-dlv cli> step # go next line
+dlv debug main.go # eq go run  
+dlv cli> break file:num # define break point  
+dlv cli> continue #run till break point  
+dlv cli> locals #show vars  
+dlv cli> step # go next line  
+
+dlv cli>source path # execute dlv commands from file defined in path separated by newline  
+dlv cli> frame 0 locals # show locals in 0 frame goroutine  
+
+
+dlv variables cmd:
+- locals in current func
+- print specific var
+- args shows args current function
+- vars all package level vars
+- funcs
+- types 
+
+dlv
+- sources list all sources files 
+- list code around line executed or we can specify line in source file currently executing like 'list 50'
+- disassemble 
+- regs shows CPU registers
+
+dlv get app state
+- stack
+- goroutines #shows all goroutines   flag -g shows place of goroutine creation 
+- treads
+
+dlv manipulate app state
+- set # changes var value
+- goroutine #change goroutine
+- tread #change active thread
 
 TODO delve
