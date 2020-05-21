@@ -47,18 +47,26 @@ BenchmarkToJSON 184 48 -73.91%
 
 ## debuger
 
-dlv debug main.go # eq go run  
+`dlv debug main.go` # eq go run  
+`dlv exec`  # debug compiled bin  
+`dlv test` # eq go test  
+`dlv attach` # debug running app  
+`dlv trace` # 
+
 dlv cli> break file:num # define break point  
-dlv cli> continue #run till break point  
+dlv cli> continue #run till break point  alias `c`  
 dlv cli> locals #show vars  
-dlv cli> step # go next line  
+dlv cli> step # execute next line  
+dlv cli> next # Step over to next source line.  
+dlv cli> stepout # execute till return and stop  
+dlv cli> restart # restart app with debug and all breakpoints  
 
 dlv cli>source path # execute dlv commands from file defined in path separated by newline  
-dlv cli> frame 0 locals # show locals in 0 frame goroutine  
+dlv cli> frame 0 locals # show locals in 0 frame goroutine   
 
 
 dlv variables cmd:
-- locals in current func
+- locals in current func 
 - print specific var
 - args shows args current function
 - vars all package level vars
@@ -80,5 +88,18 @@ dlv manipulate app state
 - set # changes var value
 - goroutine #change goroutine
 - tread #change active thread
+
+dlv app halt cmd
+- break
+break main.go:2 app stops just BEFORE line 2
+- condition
+condition breakpoint ID condition itself
+- trace #not halting but logging
+trace label main.go
+- breakpoints #list breakpoints
+- on 
+- clear
+- clearall
+
 
 TODO delve
