@@ -46,6 +46,7 @@ BenchmarkToJSON 184 48 -73.91%
 
 
 ## debuger
+graphical delve?  
 
 `dlv debug main.go` # eq go run  
 `dlv exec`  # debug compiled bin  
