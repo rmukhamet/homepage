@@ -12,9 +12,10 @@
 Искать самых умных людей, не согласных со мной, чтобы попытаться понять их логику. Знать, когдпа отказаться от своего мнения. сформулировать, проверить и систематизироватьуниверсальные принципы, не зависящие от времени. Уравновешивать риски так, чтобы сохранять премущества и уменьщать недостатки.</description></item><item><title>Golang Help</title><link>https://rmukhamet.ru/golang/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/golang/</guid><description>benchmark profiling source go test -bench=. -benchmem -cpuprofile=cpu.out -memprofile=mem.out bench_test.go
 go tool pprof -alloc_space mem.cputest mem.out (pprof) list &amp;lsquo;func name&amp;rsquo;
 go build -gcflags &amp;ldquo;-m -m&amp;rdquo;
+profiling example source get data from pprof debug endpoint $ curl http://localhost:8080/debug/pprof/profile?seconds=29 &amp;gt; cpu.1000_reqs_sec_no_optimizations.prof
+show in local webserver $ go tool pprof -http=:12345 cpu.1000_reqs_sec_no_optimizations.prof
 benchcmp go test -bench=. -benchmem bench_test.go &amp;gt; new.txt git stash go test -bench=. -benchmem bench_test.go &amp;gt; old.txt benchcmp old.txt new.txt
-benchmark old ns/op new ns/op delta BenchmarkToJSON 1579 495 -68.65% benchmark old MB/s new MB/s speedup BenchmarkToJSON 12.66 46.41 3.67x
-benchmark old allocs new allocs delta BenchmarkToJSON 2 2 +0.</description></item><item><title>Vim help</title><link>https://rmukhamet.ru/vim/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/vim/</guid><description>useful video
+benchmark old ns/op new ns/op delta BenchmarkToJSON 1579 495 -68.</description></item><item><title>Vim help</title><link>https://rmukhamet.ru/vim/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>https://rmukhamet.ru/vim/</guid><description>useful video
 http://vimcasts.org/ Источник
 Поиск /word Искать слово “word” сверху вниз
 ?word Искать слово “word” снизу вверх
