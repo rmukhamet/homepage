@@ -22,6 +22,14 @@ go tool pprof -alloc_space mem.cputest mem.out
 (pprof) list 'func name'
 
 go build -gcflags "-m -m"
+#### profiling example
+[source](https://habr.com/ru/company/southbridge/blog/513240/)
+get data from pprof debug endpoint
+`$ curl http://localhost:8080/debug/pprof/profile?seconds=29 > cpu.1000_reqs_sec_no_optimizations.prof`
+
+show in local webserver
+`$ go tool pprof -http=:12345 cpu.1000_reqs_sec_no_optimizations.prof`
+
 
 ### benchcmp
 `go test -bench=. -benchmem bench_test.go > new.txt`
