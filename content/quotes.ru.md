@@ -215,3 +215,5 @@ mathjax: false
 > Из того, что всем кажется, что это так, не следует, что это так и есть.
 > Но как вы можете сознательнов этом усомниться. 
 > -- Людвиг Витгенштейн
+
+“The hardest bugs are those where your mental model of the situation is just wrong, so you can’t see the problem at all” - Brian Kernighan
